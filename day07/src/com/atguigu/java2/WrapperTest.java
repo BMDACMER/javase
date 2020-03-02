@@ -22,11 +22,11 @@ public class WrapperTest {
 //		Integer in1 = (Integer)str1;
 		//可能会报NumberFormatException
 		int num2 = Integer.parseInt(str1);
-		System.out.println(num2 + 1);
+		System.out.println(num2 + 1);        // 124
 		
 		String str2 = "true1";
 		boolean b1 = Boolean.parseBoolean(str2);
-		System.out.println(b1);
+		System.out.println(b1);              // false
 	}
 	
 	//基本数据类型、包装类--->String类型：调用String重载的valueOf(Xxx xxx)
@@ -42,7 +42,7 @@ public class WrapperTest {
 		
 		Double d1 = new Double(12.4);
 		String str3 = String.valueOf(d1);
-		System.out.println(str2);
+		System.out.println(str2);  // “12.3”
 		System.out.println(str3);//"12.4"
 		
 	}
